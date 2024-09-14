@@ -73,7 +73,7 @@ function setup() {
   link.style('color', 'black');
   link.attribute('target', '_blank');
 
-  source_link = createA('https://rsf.org/en/index', 'Sources');
+  source_link = createA('https://rsf.org/en/index', 'Data Source');
   source_link.style('font-size', '16px');
   source_link.style('font-family', 'CustomFont2');
   source_link.style('color', 'black');
@@ -203,7 +203,7 @@ function draw() {
     textFont(IBMFont);
     textAlign(CENTER, TOP);
     fill(0);
-    text("A tool to compare press freedom indexes around the world", windowWidth / 2, windowHeight / 2 + 100);
+    text("A tool [prototype] to compare press freedom indexes around the world", windowWidth / 2, windowHeight / 2 + 100);
     pop();
 
     push()
