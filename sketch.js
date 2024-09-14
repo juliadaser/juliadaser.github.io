@@ -73,7 +73,7 @@ function setup() {
   link.style('color', 'black');
   link.attribute('target', '_blank');
 
-  source_link = createA('https://www.reporter-ohne-grenzen.de/fileadmin/Redaktion/Downloads/Ranglisten/Rangliste_2023/RSF_Rangliste_der_Pressefreiheit_2023.pdf', 'Sources');
+  source_link = createA('https://rsf.org/en/index', 'Sources');
   source_link.style('font-size', '16px');
   source_link.style('font-family', 'CustomFont2');
   source_link.style('color', 'black');
