@@ -23,7 +23,7 @@ let current_pix_img;
 function preload() {
   let getting_ip_adress = "https://api.ipify.org?format=json";
   loadJSON(getting_ip_adress, gotData_one);
-  data = loadJSON("2023_data.json");
+  data = loadJSON("2024_data.json");
   slider = loadImage('slider_V2.png');
   i_icon = loadImage('i.png');
   single_arrow = loadImage('single-arrow.png');
