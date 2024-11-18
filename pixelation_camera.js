@@ -26,10 +26,11 @@ function pixelate_video() {
     noStroke()
     video.loadPixels();
 
-
+    console.log(country)
     for (let i = 0; i < 180; i++) {
         if (country == data[i].Country_EN) {
             media_autonomy_left = data[i]["Political Context"];
+            console.log(media_autonomy_left)
         }
     }
 
